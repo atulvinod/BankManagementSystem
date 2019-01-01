@@ -1,0 +1,153 @@
+body
+{
+background-color:#FBFBFB;
+color:#666666;
+font-family:Arial;
+letter-spacing:2px;
+}
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: gray;
+}
+
+.header
+{
+	margin:-10px;
+	height:10%;
+}
+
+.btn-top
+{
+/* border-left:#333333 solid 2px; */
+margin-left:10px;
+text-decoration:none;
+padding-left:3px;
+
+}
+.btn-top:hover
+{
+/* border-left:#333333 solid 2px;	 */
+color:#333333;
+cursor:pointer;
+}
+.title-main
+{
+	color:#333333;
+	font-family:Arial;
+	font-size:30px;
+	letter-spacing:2px;
+}
+.title-tag
+{
+	color:#333333;
+	font-family:Arial;
+	font-size:14px;
+	margin-top:10px;
+	padding-top:12px;
+	letter-spacing:2px;
+}
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color:rgba(0,0,0,0);
+    border:none;
+}
+.slide-top
+{
+	color:#333333;
+	padding-bottom:2px;
+	padding-top:2px;
+}
+.logo
+{
+background-image:url(logo.png);
+height:526px;
+width:965px;
+}
+.login
+{
+color:#333333;
+text-align:center;
+letter-spacing:2px;
+}
+
+.input-login
+{
+	background:#FFFFFF;
+	letter-spacing:2px;
+	font-family:Arial;
+	border:#CCCCCC solid 1px;
+    border-radius: 25px;
+	text-align:center;
+	height:20px;
+}
+.input-login:hover
+{
+	cursor:pointer;
+	height:20px;
+}
+.input-loan
+{
+	background:#FFFFFF;
+	letter-spacing:2px;
+	font-family:Arial;
+	border:#CCCCCC solid 1px;
+    border-radius: 25px;
+	width:300px;
+	height:20px;
+	text-align:center;
+}
+.input-loan:hover
+{
+	cursor:pointer;
+	
+}
+
+.btn-loan
+{
+	color:#FFFFFF;
+	background-color:#666666;
+	font-family:Arial;
+}
+.btn-loan:hover
+{
+	background-color:#333333;
+}
+
+.btn-login
+{
+	border:none;
+	background-color:#999999;
+	color:white;
+	border:solid white 1px;
+	border-radius:25px;
+	height:inherit;
+	width:inherit;
+	padding:5px 10px 5px 10px;
+}
+.btn-login:hover
+{
+	background:white;
+	color:gray;
+	cursor:pointer;
+	border:solid gray 1px;
+}
+
+#btn-top
+{
+/* border-left:#333333 solid 2px; */
+margin-left:10px;
+text-decoration:none;
+padding-left:3px;
+
+}
+#btn-top:hover
+{
+/* border-left:#333333 solid 2px;	 */
+color:#333333;
+cursor:pointer;
+}
+

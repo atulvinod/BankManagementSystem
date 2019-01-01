@@ -1,0 +1,6 @@
+
+CREATE TABLE `bankServer`.`userinfo` ( `ID` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(50) NOT NULL , `password` VARCHAR(50) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+
+
+ALTER TABLE `userinfo` ADD `b_type` INT NOT NULL AFTER `password`, ADD `fname` VARCHAR(60) NOT NULL AFTER `b_type`, ADD `lname` VARCHAR(60) NOT NULL AFTER `fname`, ADD `pno` INT NOT NULL AFTER `lname`, ADD `email` VARCHAR(60) NOT NULL AFTER `pno`, ADD `add` TEXT NOT NULL AFTER `email`;
